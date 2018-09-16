@@ -22,6 +22,7 @@ ul {
 }
 
 li {
+	font-size:20px;
     text-align: center;
 	background: white;
 	height: 40px;
@@ -32,11 +33,10 @@ li {
 span {
 	background: #e74c3c;
 	height: 40px;
-	margin-right: 20px;
+	float: right;
 	text-align: center;
 	color: white;
 	width: 0px;
-	display: inline-block;
 	transition: 0.2s linear;
 	opacity: 0;
 }
@@ -83,3 +83,4 @@ input:focus{
 	background: #f7f7f7;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.1)
 }
+
